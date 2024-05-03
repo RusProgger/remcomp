@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#000743">
+    <link rel="apple-touch-icon" sizes="16x16" href="images/png/programmer.png">
+    <link rel="apple-touch-icon" sizes="24x24" href="images/png/programmer-24.png">
+    <link rel="apple-touch-icon" sizes="32x32" href="images/png/programmer-32.png">
+    <link rel="apple-touch-icon" sizes="64x64" href="images/png/programmer-64.png">
+    <link rel="apple-touch-icon" sizes="128x128" href="images/png/programmer-128.png">
+    <link rel="icon" type="image/png" href="images/png/programmer.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="images/png/programmer-24.png" sizes="24x24">
+    <link rel="icon" type="image/png" href="images/png/programmer-32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="images/png/programmer-64.png" sizes="64x64">
+    <link rel="icon" type="image/png" href="images/png/programmer-128.png" sizes="128x128">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- slick css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+    <!-- styles css -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Ремонт ноутбуків будь-якої складності.</title>
+</head>
+<body>
+    <div class="mask-loader">
+        <div class="loader"></div>
+    </div>
+    <header class="header">
+            <nav class="navbar navbar-dark bg-dark">
+                <div class="container-fluid">
+                <a class="navbar-brand" href="#">Remcomp</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Головна</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">Обслуговування</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#price">Ціни та послуги</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#faq">Питання (FAQ)</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Контакти</a>
+                        </li>
+                    </ul>
+                </div>
+                </div>
+            </nav>
+    </header>
+
+    <!-- home section  -->
+
+    <section class="home">
+        <!-- <div class="home__body home__body-img">
+            <div class="home-flex">
+                <h1 class="home__title">Компьютерна допомога</h1>
+                <p class="home__description">ремонт ноутбуків будь-якої складності.</p>
+            </div>
+        </div> -->
+
+        <div class="home-slider">
+            <!-- slider start -->
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/header-1.jpg" class="d-block w-100" alt="Slide 1">
+                        <div class="carousel-caption d-flex flex-column justify-content-center align-items-center">
+                        <h5>Компьютерна допомога</h5>
+                        <p>ремонт ноутбуків будь-якої складності.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/header-2.jpg" class="d-block w-100" alt="Slide 2">
+                        <div class="carousel-caption d-flex flex-column justify-content-center align-items-center">
+                        <h5>Безкоштовний виїзд та діагностика</h5>
+                        <p>У мене справді чесний і безкоштовний виїзд з діагностикою, за умови виконання ремонтних робіт.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/header-3.jpg" class="d-block w-100" alt="Slide 3">
+                        <div class="carousel-caption d-flex flex-column justify-content-center align-items-center">
+                        <h5>Збірка комп'ютера на замовлення</h5>
+                        <p>Збірка саме Вашого комп'ютера з урахуванням усіх необхідних вимог без зайвих переплат.</p>
+                        </div>
+                    </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            <!-- slider end -->
+        </div>
+
+        <div class="home__content">
+            <p class="home__content-title" id="services">Професійні рішення для вас: ремонт, обслуговування, програмне забезпечення</p>
+        </div>
+
+        <div class="container">
+            <div class="home__content-card">
+                <div class="row">
+                    <!-- Первая карточка -->
+                    <div class="col-lg-6">
+                        <div class="card mb-3">
+                        <img src="images/card/comp.png" class="card-img-top" alt="comp">
+                            <div class="card-body">
+                                <h5 class="card-title">Комп'ютери</h5>
+                                <p class="card-text">Наші фахівці підберуть для вас ідеальне рішення, враховуючи ваші потреби та бюджет.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Вторая карточка -->
+                    <div class="col-lg-6">
+                        <div class="card mb-3">
+                            <img src="images/card/video.png" class="card-img-top" alt="video">
+                            <div class="card-body">
+                                <h5 class="card-title">Відеоспостереження</h5>
+                                <p class="card-text">Наша продукція відрізняється високою якістю зображення та надійністю роботи.</p>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-lg-6">
+                        <div class="card mb-3">
+                            <img src="images/card/printer.png" class="card-img-top" alt="printer">
+                            <div class="card-body">
+                                <h5 class="card-title">Технічне обладнання офісу</h5>
+                                <p class="card-text">Ми пропонуємо широкий вибір принтерів, сканерів, копіювальних апаратів та іншої периферії.</p>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-lg-6">
+                        <div class="card mb-3">
+                            <img src="images/card/fold.png" class="card-img-top" alt="fold">
+                            <div class="card-body">
+                                <h5 class="card-title">Телекомунікаційне обладнання</h5>
+                                <p class="card-text">Завдяки нашим рішенням ви зможете забезпечити стабільну та надійну роботу вашої інформаційної інфраструктури.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- home card-->
+        </div>
+    </section>
+    <!-- sectin 2 -->
+    <main class="page">
+        <h2 class="page__title title">Встановлення  та налаштування</h2>
+        <p class="page__text">Встановлення та налаштування сучасних систем безпеки та комунікацій в офісі чи будинку – це важливий крок для забезпечення захисту об'єкта та ефективної роботи персоналу.</p>
+
+        <div class="page__content-card">
+            <div class="container">
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+                    <div class="col-lg-4">
+                        <div class="card mb-3">
+                            <img src="images/card/video.svg" class="card-img-top" alt="video">
+                            <div class="card-body">
+                                <h5 class="card-title">Відеоспостереження</h5>
+                                <p class="card-text">Система відеоспостереження є комплексом технічних засобів, які забезпечують контроль і безпеку на території, що охороняється шляхом візуального спостереження.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card mb-3">
+                            <img src="images/card/hdd.svg" class="card-img-top" alt="hdd">
+                            <div class="card-body">
+                                <h5 class="card-title">Відновлення даних</h5>
+                                <p class="card-text">Якщо зникла, або випадково видалилася якась важлива інформація з флеш-диску, ви також можете звернутися до нашого сервісного центру та вирішити ці проблеми.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card mb-3">
+                            <img src="images/card/virus.svg" class="card-img-top" alt="virus">
+                            <div class="card-body">
+                                <h5 class="card-title">Видалення вірусів</h5>
+                                <p class="card-text">Всі дії вірусного ПЗ можуть виконуватися дуже швидко і без видачі будь-яких повідомлень, користувачу важко визначити, що в комп'ютері відбувається щось незвичайне.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="card mb-3">
+                            <img src="images/card/server.svg" class="card-img-top" alt="server">
+                            <div class="card-body">
+                                <h5 class="card-title">Налаштування сервера</h5>
+                                <p class="card-text">Наша компанія готова створити для вас саме таку мережу, зробивши грамотне налаштування сервера в офісі корпоративних клієнтів і ефективне використання можливостей.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="card mb-3">
+                            <img src="images/card/wi-fi.svg" class="card-img-top" alt="wi-fi">
+                            <div class="card-body">
+                                <h5 class="card-title">Налаштування WI-FI</h5>
+                                <p class="card-text">Проводимо монтаж мережевих з'єднань будь-якої складності, і в найкоротші терміни. Об'єднання локальних мережевих з'єднань або wi-fi мереж з шифруванням даних.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="card mb-3">
+                            <img src="images/card/system.svg" class="card-img-top" alt="system">
+                            <div class="card-body">
+                                <h5 class="card-title">Встановлення програм</h5>
+                                <p class="card-text">У будь-який момент можете звернутися в сервісний центр нашої компанії і викликати фахівця, який зробить не тільки встановлення програм, а й розповість, як ними користуватися.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- section 3 -->
+        <section class="page-price page-price-bg">
+            <h2 class="page__title-price title" id="price">Нaші послуги та ціни</h2>
+
+            <!-- card price -->
+            <div class="page__price-content">
+                <div class="container">
+                    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
+                        <div class="col mb-3">
+                            <div class="card mb-3 h-100 d-flex flex-column">
+                                <img src="images/card/car.svg" class="card-img-top" alt="car">
+                                <div class="card-body flex-fill">
+                                    <h5 class="card-title">Виїзд та діагностика</h5>
+                                    <p class="card-text">Безкоштовно</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col mb-3">
+                            <div class="card mb-3 h-100 d-flex flex-column">
+                                <img src="images/card/windows.svg" class="card-img-top" alt="windows">
+                                <div class="card-body">
+                                    <h5 class="card-title">Встановлення Windows</h5>
+                                    <p class="card-text">Від 300 грн.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col mb-3">
+                            <div class="card mb-3 h-100 d-flex flex-column">
+                                <img src="images/card/software-pc.svg" class="card-img-top" alt="software-pc">
+                                <div class="card-body">
+                                    <h5 class="card-title">Встановлення програм</h5>
+                                    <p class="card-text">Від 50 грн.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col mb-3">
+                            <div class="card mb-3 h-100 d-flex flex-column">
+                                <img src="images/card/trash.svg" class="card-img-top" alt="trash">
+                                <div class="card-body">
+                                    <h5 class="card-title">Чищення системи</h5>
+                                    <p class="card-text">Від 50 грн.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col mb-3">
+                            <div class="card mb-3 h-100 d-flex flex-column">
+                                <img src="images/card/pill-comp.svg" class="card-img-top" alt="pill-comp">
+                                <div class="card-body">
+                                    <h5 class="card-title">Лікування від вірусів</h5>
+                                    <p class="card-text">Від 200 грн.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col mb-3">
+                            <div class="card mb-3 h-100 d-flex flex-column">
+                                <img src="images/card/linux.svg" class="card-img-top" alt="linux">
+                                <div class="card-body">
+                                    <h5 class="card-title">Встановлення Linux</h5>
+                                    <p class="card-text">Від 300 грн.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col mb-3">
+                            <div class="card mb-3 h-100 d-flex flex-column">
+                                <img src="images/card/clean.svg" class="card-img-top" alt="clean">
+                                <div class="card-body">
+                                    <h5 class="card-title">Чищення пк від пилу</h5>
+                                    <p class="card-text">Від 150 грн.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col mb-3">
+                            <div class="card mb-3 h-100 d-flex flex-column">
+                                <img src="images/card/soldering.svg" class="card-img-top" alt="soldering">
+                                <div class="card-body">
+                                    <h5 class="card-title">Заміна та ремонт</h5>
+                                    <p class="card-text">Від 70 грн.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- section 4 question -->
+        <section class="page-question page-question-bg">
+            <h2 class="page-question__title title" id="faq">Часті питання (FAQ)</h2>
+            <p class="page-question__desc">Відповіді на більшість запитань</p>
+
+            <div class="page-question-body">
+                <div class="container">
+                    <div class="row">
+                        <!-- start -->
+                            <div class="accordion" id="accordionExample">
+                                <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        ЯК МИ ПРАЦЮЄМО?
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                    Залишаєте заявку, приїжджає майстер і проводить діагностику. Якщо ви перебуваєте в іншому місті або в іншій країні, <strong> НЕ ПРОБЛЕМА!</strong>  Ми завжди зможемо Вам допомогти.
+                                    </div>
+                                </div>
+                                </div>
+                                <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Виклик додому чи приїхати до мене?
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        У більшості випадків, діагностику, ремонт і налаштування Вашого ПК можна зробити у Вас вдома, що заощадить Вам Ваш час і сили на доставку комп'ютера до мене. Однак, трапляються такі несправності, причини яких можна виявити тільки у мене з додатковим обладнанням.
+                                    </div>
+                                </div>
+                                </div>
+                                <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        Чи можу я отримати консультацію щодо послуг?
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        Так, звісно. Ви можете зателефонувати мені, поставити всі необхідні запитання та отримати вичерпні відповіді.
+                                    </div>
+                                </div>
+                                
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingFour">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFrour">
+                                        Чи ремонтуєте Ви ноутбуки?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            Так, я проводжу діагностику, налаштування, встановлення програмного забезпечення, заміну термопасти в системі охолодження і чищення від пилу ноутбуків і нетбуків. Фізичним ремонтом займається мій колега, його контакти при індивідуальному запиті.
+                                        </div>
+                                    </div>
+                                    </div>
+
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingFive">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                            Чому у Вас ціни дешевші/дорожчі за інші?
+                                            </button>
+                                        </h2>
+                                        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                Я намагаюся, щоб ціни влаштовували і мене, і Вас! Так само, при виконанні декількох робіт я роблю знижки!
+                                            </div>
+                                        </div>
+                                        </div>
+
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="headingSix">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                                    Чи не нав'яжете Ви мені непотрібних послуг?
+                                                </button>
+                                            </h2>
+                                            <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+                                                <div class="accordion-body">
+                                                    Я можу лише порекомендувати ту чи іншу послугу, яка, на мою думку, буде необхідна для Вашого ПК. Про необхідність її надання вирішуєте тільки Ви!
+                                                </div>
+                                            </div>
+                                            </div>
+
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="headingSeven">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSix">
+                                                    Чи видаляєте Ви блокуючі банери з робочого столу?
+                                                </button>
+                                            </h2>
+                                            <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+                                                <div class="accordion-body">
+                                                    Так, я видаляю будь-який банер-вірус з робочого столу з повним збереженням усіх користувацьких даних.
+                                                </div>
+                                            </div>
+                                            </div>
+                                </div>
+                            </div>
+                        <!-- end -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="page-review page-review-bg">
+            <div class="container">
+                <h3 class="page-review__title title">Наші відгуки</h3>
+                <div class="row page-review-block slider">
+                    <div class="col-md-12 page-review__cards gradient-border">
+                        <div class="page-review__body">
+                            <img src="images/review/male.png" alt="user">
+                            <h3 class="page-review__name">Владіслав</h3>
+                            <p class="page-review__text">Викликали майстра для ремонту комп’ютера. Досить швидко приїхав, та усунув причину поломки. Чудовий підхід до роботи та відповідальність.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-12 page-review__cards gradient-border">
+                        <div class="page-review__body">
+                            <img src="images/review/female.png" alt="user">
+                            <h3 class="page-review__name">Тетяна</h3>
+                            <p class="page-review__text">Рівень сервісу, якість обслуговування, гнучкий графік надання послуг - усі пункти на найвищому рівні. Майстер добросовісний. Рекомендую.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-12 page-review__cards gradient-border">
+                        <div class="page-review__body">
+                            <img src="images/review/female.png" alt="user">
+                            <h3 class="page-review__name">Олена</h3>
+                            <p class="page-review__text">Дякую молодому хлопцю, який мені зробив комп'ютер! Я йому дуже вдячна!! Я думала, що вінда полетіла, а він сказав, що річ в іншому! Виявляється, що вінчестер полетів повністю!</p>
+                        </div>
+                    </div>
+                    <div class="col-md-12 page-review__cards gradient-border">
+                        <div class="page-review__body">
+                            <img src="images/review/female.png" alt="user">
+                            <h3 class="page-review__name">Віка</h3>
+                            <p class="page-review__text">Дуже хороший майстер, професіонал! Швидко виїжджає на місце до клієнта і якісно вирішує будь-яку проблему.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-12 page-review__cards gradient-border">
+                        <div class="page-review__body">
+                            <img src="images/review/male.png" alt="user">
+                            <h3 class="page-review__name">Михайло</h3>
+                            <p class="page-review__text">Дякую Олександру за оперативне реагування у вирішенні моєї проблеми!</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12 page-review__cards gradient-border">
+                        <div class="page-review__body">
+                            <img src="images/review/male.png" alt="user">
+                            <h3 class="page-review__name">Павло</h3>
+                            <p class="page-review__text">Гальмував ноутбук, хотів викидати й купувати новий. Мені порадили звернутися до майстра. Він запропонував купити ссд-диск. Допоміг мені його поставити. Після цього ноутбук літає, як новий.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12 page-review__cards gradient-border">
+                        <div class="page-review__body">
+                            <img src="images/review/male.png" alt="user">
+                            <h3 class="page-review__name">Катерина</h3>
+                            <p class="page-review__text">Величезне дякую за швидке відновлення кабелю інтернету, буду до Вас звертатися.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <div class="container">
+                <div class="contact__body">
+                    <p>
+                        <img src="images/phone.svg" alt="phone">
+                        Контакти: 
+                        <a href="tel:+380635979786" aria-label="number phone">0635979786</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <p>Копіювання матеріалів без письмового дозволу заборонено.</p>
+            <p>© 2013-2024 Приватний комп'ютерний майстер</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+    <!-- jquery script -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <!-- slick js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script src="./js/slick-script.js"></script>
+    <!-- preloader js script -->
+    <script src="./js/load.js"></script>
+
+    <script src="./js/height.js"></script>
+</body>
+</html>
