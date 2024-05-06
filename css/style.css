@@ -226,10 +226,17 @@ p {
 .page__text,
 .page-question__desc {
     max-width: 700px;
-    margin: auto;
+    padding: 0 15px;
+    margin: -10px auto;
     text-align: center;
     color: #ffffff;
 }
+
+/* .page__text,
+.page-question__desc,
+.page__title-price {
+    padding: 0 10px;
+} */
 
 .page__content-card {
     margin: 50px 0;
@@ -337,6 +344,20 @@ p {
 /* contact */
 
 .contact {
+    background: #373B44;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.contact-body-content a {
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: block;
+    margin: 15px 0;
+    text-decoration: none;
+}
+
+/* .contact {
     background-color: #000000;
     padding: 25px 0;
 }
@@ -353,11 +374,12 @@ p {
     max-width: 28px;
 }
 
+
 .contact__body > p > a {
     color: #ffffff;
     text-decoration: none;
     font-size: 1.5rem;
-}
+} */
 
 
 /* footer */
